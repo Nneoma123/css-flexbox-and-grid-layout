@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main{
+    /* width: 50%; */
+    /* height: 50%; */
+    /* margin: 50px; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.number{
+    display: flex;
+    /* padding: 6rem; */
+    /* margin: 0; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* justify-content: center; */
+    max-width: 756px;
+
+} 
+.column {
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 30px;
+    font-size: 15px;
+}   
+.one{
+   background-color: hsl(31, 77%, 52%);
+   color: hsla(0, 0%, 100%, 0.75);
+} 
+.number h2{
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive; 
+    margin: 30px 0;
+}
+.two{
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+ } 
+.three{
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+ }
+ button{
+    width: 150px;
+    height: 40px;
+    background: white;
+    color: hsl(179, 100%, 13%);
+    border-radius: 20px;
+    border-color: rgba(245, 245, 245, 0); 
+    margin-top: 60px;
+    font-family: inherit;
+ }
+ .l1{
+     color:hsl(31, 77%, 52%)
+ }
+ .l2{
+     color:hsl(184, 100%, 22%)
+ }
+ .l3{
+     color:hsl(179, 100%, 13%)
+ }
