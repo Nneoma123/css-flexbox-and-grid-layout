@@ -85,7 +85,7 @@ border: 2px white solid;
   background-color: rgb(9, 126, 126);
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .number {
     flex-direction: column;
   }
